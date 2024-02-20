@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29025.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B2AE124-6636-4DE9-83A3-70360DABD0C4}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.CAP.AmazonSQS", "src\DotNetCore.CAP.AmazonSQS\DotNetCore.CAP.AmazonSQS.csproj", "{43475E00-51B7-443D-BC2D-FC21F9D8A0B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.AmazonSQS.InMemory", "samples\Sample.AmazonSQS.InMemory\Sample.AmazonSQS.InMemory.csproj", "{B187DD15-092D-4B72-9807-50856607D237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.CAP.RabbitMQ.ESCID", "src\DotNetCore.CAP.RabbitMQ.ESCID\DotNetCore.CAP.RabbitMQ.ESCID.csproj", "{9A4F740A-D77E-4D0E-BFCF-22303E15EC32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{B187DD15-092D-4B72-9807-50856607D237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B187DD15-092D-4B72-9807-50856607D237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B187DD15-092D-4B72-9807-50856607D237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4F740A-D77E-4D0E-BFCF-22303E15EC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4F740A-D77E-4D0E-BFCF-22303E15EC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4F740A-D77E-4D0E-BFCF-22303E15EC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4F740A-D77E-4D0E-BFCF-22303E15EC32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,6 +184,7 @@ Global
 		{2B0F467E-ABBD-4A51-BF38-D4F609DB6266} = {3A6B6931-A123-477A-9469-8B468B5385AF}
 		{43475E00-51B7-443D-BC2D-FC21F9D8A0B4} = {9B2AE124-6636-4DE9-83A3-70360DABD0C4}
 		{B187DD15-092D-4B72-9807-50856607D237} = {3A6B6931-A123-477A-9469-8B468B5385AF}
+		{9A4F740A-D77E-4D0E-BFCF-22303E15EC32} = {9B2AE124-6636-4DE9-83A3-70360DABD0C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E70565D-94CF-40B4-BFE1-AC18D5F736AB}
