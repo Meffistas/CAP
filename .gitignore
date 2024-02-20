@@ -42,3 +42,4 @@ Properties
 .vscode/*
 samples/Sample.RabbitMQ.MongoDB/appsettings.Development.json
 site/
+/nupkg
